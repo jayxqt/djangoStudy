@@ -19,4 +19,7 @@ from . import view
 urlpatterns = [
     url(r'^$', view.hello),
     url('hello/', view.hello2),
+    url('hello3/', view.hello3),
+    url('arysdemo/', view.arysDemo),
+    url('familys/', view.familys),
 ]
